@@ -516,3 +516,27 @@ section {
   0% { transform: rotate(0deg); }
   100% { transform: rotate(360deg); }
 }
+
+
+
+.projects-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+}
+
+.project-card {
+  display: flex;
+  flex-direction: column;
+}
+
+.project-links {
+  margin-top: auto;
+}
+
+.project-links {
+  display: flex;
+  gap: 12px;        
+  flex-wrap: wrap;  
+  margin-top: auto;
+}
