@@ -12,6 +12,8 @@ import Contact from "./sections/Contact";
 
 import Loader from "./components/Loader"; // 👈 import loader
 
+import "./index.css";
+
 function App() {
   const [loading, setLoading] = useState(true);
 

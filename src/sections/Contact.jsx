@@ -1,5 +1,5 @@
 import contactVideo from "../assets/7020014_Desk_Typing_3840x2160.mp4";
-import { FaGithub, FaLinkedin, FaEnvelope } from "react-icons/fa";
+import { FaGithub, FaLinkedin, FaEnvelope, FaPhone  } from "react-icons/fa";
 
 const Contact = () => {
   return (
@@ -20,6 +20,10 @@ const Contact = () => {
       <div className="contact-info">
         <a href="mailto:swarupsalunke01@gmail.com">
           <FaEnvelope /> swarupsalunke01@gmail.com
+        </a>
+
+         <a href="tel:+919529624837">
+          <FaPhone /> +91 9529624837
         </a>
 
         <a

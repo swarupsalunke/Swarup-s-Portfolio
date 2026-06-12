@@ -1,6 +1,7 @@
 import heroImg from "../assets/images/hero.jpg";
 import { FaHandPaper } from "react-icons/fa"; // import icon
 
+
 const Hero = () => {
   return (
     <section className="hero">
@@ -12,7 +13,7 @@ const Hero = () => {
           </span>
         </h1>
 
-        <h2>MERN Stack Developer</h2>
+        <h2>Full Stack MERN Developer</h2>
 
         <p>
           "I build fast, responsive, and real-world web apps using MERN stack."

@@ -234,24 +234,71 @@ section {
    RESPONSIVE
 ========================= */
 
+/* =========================
+   HERO MOBILE RESPONSIVE
+========================= */
+
 @media (max-width: 900px) {
   .hero {
-    flex-direction: column;
+    display: flex;
+    flex-direction: column; /* Text upar, image niche */
+    justify-content: center;
+    align-items: center;
     text-align: center;
-    margin-top: 1.5rem;
+    min-height: auto;
+    padding: 100px 5% 50px;
+    gap: 2rem;
+  }
+
+  .hero-content {
+    max-width: 100%;
   }
 
   .hero-image {
-    margin-top: 2rem;
-    width: 330px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
 
+  .hero-image img {
+    width: 280px;
+    max-width: 100%;
   }
 
   .hero-buttons {
     justify-content: center;
-     padding: 14px 30px;
   }
 }
+
+@media (max-width: 480px) {
+  .hero h1 {
+    font-size: 2rem;
+  }
+
+  .hero h2 {
+    font-size: 1.2rem;
+  }
+
+  .hero p {
+    font-size: 0.9rem;
+  }
+
+  .hero-image img {
+    width: 220px;
+  }
+
+  .hero-buttons {
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .hero-buttons a {
+    width: 100%;
+    text-align: center;
+  }
+}
+
+
 
 /* =========================
    ABOUT
@@ -540,3 +587,4 @@ section {
   flex-wrap: wrap;  
   margin-top: auto;
 }
+
