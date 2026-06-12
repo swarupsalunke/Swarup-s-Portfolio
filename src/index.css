@@ -234,71 +234,24 @@ section {
    RESPONSIVE
 ========================= */
 
-/* =========================
-   HERO MOBILE RESPONSIVE
-========================= */
-
 @media (max-width: 900px) {
   .hero {
-    display: flex;
-    flex-direction: column; /* Text upar, image niche */
-    justify-content: center;
-    align-items: center;
+    flex-direction: column;
     text-align: center;
-    min-height: auto;
-    padding: 100px 5% 50px;
-    gap: 2rem;
-  }
-
-  .hero-content {
-    max-width: 100%;
+    margin-top: 1.5rem;
   }
 
   .hero-image {
-    width: 100%;
-    display: flex;
-    justify-content: center;
-  }
+    margin-top: 2rem;
+    width: 330px;
 
-  .hero-image img {
-    width: 280px;
-    max-width: 100%;
   }
 
   .hero-buttons {
     justify-content: center;
+     padding: 14px 30px;
   }
 }
-
-@media (max-width: 480px) {
-  .hero h1 {
-    font-size: 2rem;
-  }
-
-  .hero h2 {
-    font-size: 1.2rem;
-  }
-
-  .hero p {
-    font-size: 0.9rem;
-  }
-
-  .hero-image img {
-    width: 220px;
-  }
-
-  .hero-buttons {
-    flex-direction: column;
-    width: 100%;
-  }
-
-  .hero-buttons a {
-    width: 100%;
-    text-align: center;
-  }
-}
-
-
 
 /* =========================
    ABOUT
@@ -587,4 +540,8 @@ section {
   flex-wrap: wrap;  
   margin-top: auto;
 }
-
+@media (max-width: 768px) {
+  .projects-container {
+    grid-template-columns: 1fr;
+  }
+}
