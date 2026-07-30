@@ -23,7 +23,7 @@ const Hero = () => {
         <div className="hero-buttons">
           <a href="#projects">View Projects</a>
           <a
-            href="https://drive.google.com/file/d/1YbGXB_flFeOgRnJVxmeYBtu1YDPmnXhj/view?usp=drive_link"
+            href="https://drive.google.com/file/d/1-LB0aLaWZh_kEcFRKgZe6noeixtnlpIq/view?usp=sharing"
             download
           >
             View Resume
